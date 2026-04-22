@@ -6,4 +6,4 @@ Tại sao thiếu hibernate.dialect lại khiến Hibernate không thể khởi 
 
 Thuộc tính nào giúp Hibernate tự động tạo bảng (medicines, prescriptions) từ Java Class?
 
-- Thành phần giúp hibernate tạo ra các table trong csdl là setPackageToScan giúp quét các class trong package có Anotation @Entity để tạo bảng
+-việc tự động tạo bảng từ Java Class (ví dụ: Medicines, Prescriptions) được thực hiện nhờ kết hợp giữa annotation JPA và cấu hình hibernate.hbm2ddl.auto.
